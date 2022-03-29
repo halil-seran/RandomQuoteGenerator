@@ -17,7 +17,6 @@ export default function App() {
   const [Quote, setQuote] = useState("Loading...");
   const [Author, setAuthor] = useState("Loading...");
   const [isLoading, setIsLoading] = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false); //this is for color changing
 
   const randomQuote = () => {
     setIsLoading(true);
